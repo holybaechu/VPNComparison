@@ -11,7 +11,7 @@ if (!existsSync(`./services/${serviceName}.ts`)) {
 const service: Service = await import(`./services/${serviceName}.ts`)
 
 service.test().then(result => {
-    console.log(`Total servers: ${result.totalServers}`)
-    console.log(`Total locations: ${result.totalLocations}`)
+    if (result.totalServers) console.log(`Total servers: ${result.totalServers}`)
+    if (result.totalLocations) console.log(`Total locations: ${result.totalLocations}`)
     console.log(`Total countries: ${result.totalCountries}`)
 })
