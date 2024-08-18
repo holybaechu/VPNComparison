@@ -5,4 +5,5 @@ This scripts are for calculating count of servers, locations and countries of va
 
 ## Supported VPN Services
 PIA
+
 NordVPN (Doesn't "really" work...)
