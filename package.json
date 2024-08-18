@@ -1,0 +1,19 @@
+{
+    "name": "vpn-comparison",
+    "type": "module",
+    "author": {
+        "name": "holybaechu",
+        "email": "holybaechu@proton.me"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/holybaechu/vpn-comparison.git"
+    },
+    "license": "MIT",
+    "scripts": {
+        "start": "bun run index.ts"
+    },
+    "dependencies": {
+        "@types/node": "^22.4.0"
+    }
+}
